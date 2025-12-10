@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyMath">
+      <HintPath>..\..\MyMath\MyMath\bin\Debug\net8.0\MyMath.dll</HintPath>
+    </Reference>
+    <Reference Include="Optimization">
+      <HintPath>..\Optimization\bin\Debug\net8.0\Optimization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

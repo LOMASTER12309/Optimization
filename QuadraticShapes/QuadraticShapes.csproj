@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConditionalOptimization\ConditionalOptimization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MyMath">
+      <HintPath>..\..\MyMath\MyMath\bin\Debug\net8.0\MyMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
